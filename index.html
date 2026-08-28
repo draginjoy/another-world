@@ -15,6 +15,8 @@ a{color:inherit}
 .book{max-width:760px;margin:0 auto}
 .cover,.title-page,.part,.back{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 .cover{padding:32px 24px 56px;background:radial-gradient(circle at 50% 38%,#33435e 0,#121a29 48%,#080b12 100%)}
+.cover{padding:0!important;min-height:auto}
+.cover img{display:block;width:100%;height:auto}
 .cover h1{margin:0;font-size:clamp(2.15rem,8vw,3.5rem);line-height:1.35;font-weight:500;letter-spacing:-.045em;word-break:keep-all}
 .cover .sub{margin-top:28px;color:var(--muted);letter-spacing:.18em}
 .cover .author{margin-top:12vh;color:#cfc8c2;letter-spacing:.28em;font-size:.9rem}
@@ -52,9 +54,7 @@ a{color:inherit}
 <body>
 <main class="book">
 <section class="cover" id="top">
-<h1>내가 몰랐던 또 다른 세계</h1>
-<div class="sub">ANOTHER WORLD</div>
-<div class="author">이안</div>
+<img src="cover.jpg" alt="내가 몰랐던 또 다른 세계">
 </section>
 
 <section class="title-page">
